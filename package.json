@@ -1,0 +1,35 @@
+{
+  "name": "react-tinymce",
+  "version": "0.7.0",
+  "description": "React TinyMCE component",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "node_modules/.bin/rackt test --single-run --browsers Firefox",
+    "start": "node_modules/.bin/rackt server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/instructure-react/react-tinymce.git"
+  },
+  "homepage": "https://github.com/instructure-react/react-tinymce",
+  "keywords": [
+    "tinymce",
+    "react-component"
+  ],
+  "author": "Matt Zabriskie",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0 || ^16.0.0",
+    "react-dom": "^0.14.0 || ^15.0.0 || ^16.0.0"
+  },
+  "devDependencies": {
+    "rackt-cli": "^0.8.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.2",
+    "lodash": ">=4.17.4",
+    "prop-types": "^15.6.0"
+  }
+}
