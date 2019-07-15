@@ -16,13 +16,21 @@
     "tinymce",
     "react-component"
   ],
-  "author": "Matt Zabriskie",
+  "author": "henry",
   "license": "MIT",
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0 || ^16.0.0",
     "react-dom": "^0.14.0 || ^15.0.0 || ^16.0.0"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1",
+    "eslint-config-react-app": "^4.0.1",
+    "eslint-plugin-flowtype": "^3.11.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react-hooks": "^1.6.1",
     "rackt-cli": "^0.8.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
@@ -31,5 +39,8 @@
     "create-react-class": "^15.6.2",
     "lodash": ">=4.17.4",
     "prop-types": "^15.6.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
   }
 }
